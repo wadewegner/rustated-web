@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rustated.com'
 languageCode = 'en-us'
 title = 'Rustated'
 theme = 'terminal'
@@ -26,9 +26,7 @@ paginate = 5
       logoText = "Rustated"
       logoHomeLink = "/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
